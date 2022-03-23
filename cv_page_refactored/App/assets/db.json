@@ -1,0 +1,26 @@
+{
+
+    "conocimientos":[
+
+        {
+            "name":"html",
+            "img":"App/assets/mate.jpg",
+            "caption":"Puse un barquito en un río, rodeao' de navíos, Ma el mundo ahora es mío Voy con 20 de edad y un muy Menor de edad que es más grande que el tío"
+        },
+        {
+            "name":"css",
+            "img":"App/assets/mate.jpg",
+            "caption":"Puse un barquito en un río, rodeao' de navíos, Ma el mundo ahora es mío Voy con 20 de edad y un muy Menor de edad que es más grande que el tío"
+        },
+        {
+            "name":"Js",
+            "img":"App/assets/mate.jpg",
+            "caption":"Puse un barquito en un río, rodeao' de navíos, Ma el mundo ahora es mío Voy con 20 de edad y un muy Menor de edad que es más grande que el tío"        },
+        {
+            "name":"English",
+            "img":"App/assets/mate.jpg",
+            "caption":"Puse un barquito en un río, rodeao' de navíos, Ma el mundo ahora es mío Voy con 20 de edad y un muy Menor de edad que es más grande que el tío"
+        }
+
+    ]
+}
