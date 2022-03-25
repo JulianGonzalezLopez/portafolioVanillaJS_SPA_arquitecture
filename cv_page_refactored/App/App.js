@@ -14,5 +14,4 @@ export function App(){
     $root.appendChild(Footer());
 
     Router();
-
 }

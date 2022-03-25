@@ -8,12 +8,8 @@ export  function SideBar(){
     const $navBar = document.createElement("nav");
     $navBar.classList.add("sideNav");
     $navBar.appendChild(SideBtn({
-        text:"Home",
-        href: "#/home"
-    }))
-    $navBar.appendChild(SideBtn({
         text:"About me",
-        href: "#/about"
+        href: "#/"
     }))
     $navBar.appendChild(NavBtn({
         text:"My repo",

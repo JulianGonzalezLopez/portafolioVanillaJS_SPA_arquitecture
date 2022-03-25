@@ -4,15 +4,11 @@ import { NavBtn } from "./NavBtn.js";
 export function NavBar(){
     const $navBar = document.createElement("nav");
     $navBar.appendChild(NavBtn({
-        text:"Home",
-        href: "#/Home"
-    }))
-    $navBar.appendChild(NavBtn({
         text:"About me",
-        href: "#/about"
+        href: "#/"
     }))
     $navBar.appendChild(NavBtn({
-        text:"My repo",
+        text:"Projects",
         href: "#/repo"
     }))
     $navBar.appendChild(NavBtn({
