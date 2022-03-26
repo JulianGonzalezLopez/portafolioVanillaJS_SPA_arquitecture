@@ -1,19 +1,9 @@
 export function TitleSection(props){
-    let {title, text, bg, givenClass}  = props;
+    let {title, el, givenClass}  = props;
     const $titleSection = document.createElement("section");
-    $titleSection.classList.add(givenClass||"titleSection");
+    $titleSection.classList.add("title-section");
     $titleSection.appendChild(title)
-
-    if(bg != null){
-        const $div = document.createElement("div");
-        $div.appendChild(text);
-        $div.classList.add("secBg");
-        $titleSection.appendChild($div);
-        $div.style.backgroundImage = `url(${bg})`;
-    }
-    else{
-        text ? $titleSection.appendChild(text) : null;
-    }
+    $titleSection.appendChild(el);
 
     return $titleSection;
 }

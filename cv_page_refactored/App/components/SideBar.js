@@ -11,8 +11,8 @@ export  function SideBar(){
         text:"About me",
         href: "#/"
     }))
-    $navBar.appendChild(NavBtn({
-        text:"My repo",
+    $navBar.appendChild(SideBtn({
+        text:"My projects",
         href: "#/repo"
     }))
     $navBar.appendChild(SideBtn({

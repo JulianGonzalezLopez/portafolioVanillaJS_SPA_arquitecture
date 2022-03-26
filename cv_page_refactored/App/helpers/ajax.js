@@ -1,16 +1,15 @@
-export function ajax(props){
+export async function ajax(props){
 
     let {url, cbSuccess} = props;
 
-    fetch(url)
-    
-    .then(res=>res.ok ? res.json() : Promise.reject())
+    try{
+        let res = await fetch(url);
+        let json = await res.json();
 
-    .then(json=>cbSuccess(json))
-
-    .catch(err=>{
-        let message = {status: err.status, statusText: err.statusText};
-        console.log(err.status || "Error en el fetch");
+        console.log(json);
+        cbSuccess(json);
     }
-    )
+    catch(err){
+        console.log(err);
+    }
 }
