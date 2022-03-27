@@ -4,6 +4,7 @@ import { Main } from "./components/Main.js";
 import { NavBar } from "./components/NavBar.js";
 import { Router } from "./components/Router.js";
 import { SideBar } from "./components/SideBar.js";
+import { onFocus } from "./helpers/onFocus.js";
 
 export function App(){
     const $root = document.querySelector("#root");
@@ -13,4 +14,5 @@ export function App(){
     $root.appendChild(Footer());
     $root.appendChild(SideBar());
     Router();
+    onFocus();
 }

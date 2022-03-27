@@ -6,6 +6,6 @@ export function Header(){
     const $header = document.createElement("header");
     $header.appendChild(Pic("Jgl"));
     $header.appendChild(NavBar());
-
+    
     return $header;
 }

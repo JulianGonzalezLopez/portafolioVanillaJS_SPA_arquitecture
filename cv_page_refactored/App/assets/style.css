@@ -367,6 +367,29 @@ header nav > *:hover{
     }
    
 }
+.valid:invalid{
+    animation-name: redBordersIn;
+    animation-duration: .7s;
+    animation-fill-mode: forwards;
+}
+@keyframes redBordersIn {
+    0%{
+        box-shadow: 0px 1px red;
+    }
+    25%{
+        box-shadow: 0px 1px red, 0px -1px red
+    }
+    50%{
+        box-shadow: 0px 1px red, 0px -1px red,1px 0px red
+    }
+    75%{
+        box-shadow: 0px 1px red, 0px -1px red,1px 0px red,-1px 0px red;
+    }
+    100%{
+        box-shadow: 0px 1px red, 0px -1px red,1px 0px red,-1px 0px red;
+    }
+
+}
 .btn-submit{
     width: 100px;
     border-radius: 1rem;
