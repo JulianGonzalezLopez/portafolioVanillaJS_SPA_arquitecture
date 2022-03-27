@@ -3,6 +3,4 @@ As the title says, this has my portafolio in vanilla JS BUT  following the SPA a
 
 OPEN THIS PROJECT WITH LIVESERVER OR ANY OTHER TOOL OF THAT KIND. IF NOT, IT IS NOT GOING TO EVEN SHOW THE HTML
 
-It requires json-server
-
-IN THE COMAND LINE WRITE json-server --watch App\assets\db.json. Otherwise, "My relationship with programming" section will be empty
+IMPORTANT -----> To run this portafolio, previously you needed to open db.json using json-server. To make the testing easer I added an object called lenData to Router.js which contains that info.
