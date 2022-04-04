@@ -1,0 +1,21 @@
+{
+
+    "conocimientos":[
+
+        {
+            "name":"html",
+            "img":"App/assets/html-1.svg",
+            "caption":"This love/hate relationship with HTML started a summer two years ago. Apart from c++, which I learned a little bit at secondary school, this was my first 'web' language"
+        },
+        {
+            "name":"css",
+            "img":"App/assets/css-3.svg",
+            "caption":"Just like HTML, I started to grasp the concept of CSS two years ago. However, my focused training in understanding CSS started 5 months ago"
+        },
+        {
+            "name":"Js",
+            "img":"App/assets/js.png",
+            "caption":"Javascript, my golden boy, I love it. Not only it's easy and tricky at the same time but also lets me do things that you can't usally do with pure html/css"        }
+
+    ]
+}
